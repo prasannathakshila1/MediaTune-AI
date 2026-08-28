@@ -1,0 +1,72 @@
+const testUsers = [
+  {
+    username: 'happyuser',
+    email: 'happy@example.com',
+    password: 'happy123',
+    preferences: {
+      genres: ['pop', 'dance', 'electronic'],
+      moods: ['happy', 'energetic'],
+      language: 'en'
+    }
+  },
+  {
+    username: 'saduser',
+    email: 'sad@example.com',
+    password: 'sad123',
+    preferences: {
+      genres: ['acoustic', 'indie', 'classical'],
+      moods: ['sad', 'calm'],
+      language: 'en'
+    }
+  },
+  {
+    username: 'energeticuser',
+    email: 'energetic@example.com',
+    password: 'energy123',
+    preferences: {
+      genres: ['rock', 'metal', 'electronic'],
+      moods: ['energetic', 'happy'],
+      language: 'en'
+    }
+  },
+  {
+    username: 'chilluser',
+    email: 'chill@example.com',
+    password: 'chill123',
+    preferences: {
+      genres: ['lofi', 'jazz', 'ambient'],
+      moods: ['calm', 'neutral'],
+      language: 'en'
+    }
+  },
+  {
+    username: 'romanticuser',
+    email: 'romantic@example.com',
+    password: 'romance123',
+    preferences: {
+      genres: ['r&b', 'soul', 'ballad'],
+      moods: ['romantic', 'happy'],
+      language: 'en'
+    }
+  },
+  {
+    username: 'angryuser',
+    email: 'angry@example.com',
+    password: 'angry123',
+    preferences: {
+      genres: ['metal', 'rock', 'hardcore'],
+      moods: ['energetic'],
+      language: 'en'
+    }
+  },
+  {
+    username: 'demo',
+    email: 'demo@example.com',
+    password: 'demo123',
+    preferences: {
+      genres: ['pop', 'rock', 'electronic', 'hiphop'],
+      moods: ['happy', 'energetic', 'calm', 'sad'],
+      language: 'en'
+    }
+  }
+];
